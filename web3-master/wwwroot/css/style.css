@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+}
+
+.logo{
+  width:20px;
+  height:20px;
+  margin: 0 10px 5px 0;
+}
+
+.body {
+  max-width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.row{
+  max-width: 100%;
+  margin:0;
+  padding:0;
+}
+
+table{
+  margin:5% auto;
+}
+
+.profile-picture{
+  max-width: 400px;
+}
+
+.half{
+  width: 50%;
+}
+.close-icon{
+  margin-left: 30px;
+  width:25px;
+  height:25px;
+  cursor: pointer;
+}
+
+.close-icon:hover{
+  color:blue;
+}
+

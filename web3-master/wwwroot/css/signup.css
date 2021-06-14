@@ -1,0 +1,37 @@
+.center{
+    background-color: #fff;
+    margin:3% auto;
+    border: 2px solid gray;
+    border-radius:10px;
+    padding: 3%;
+}
+
+.centered{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 10%;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center > button{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer{
+    bottom:0;
+    width: 100%;
+}
+
+.required{
+    color:red;
+}
